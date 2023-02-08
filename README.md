@@ -4,11 +4,11 @@
 
 ### Auto
 
-Run `install.bat`.
+Run `install.bat`
 
 ### Manual 
 
-Copy macros to `%FARPROFILE%\Macros\internal` (`C:\Users\user\AppData\Roaming\Far Manager\Profile\Macros\internal`).
+Copy macros to `%FARPROFILE%\Macros\internal` (`C:\Users\user\AppData\Roaming\Far Manager\Profile\Macros\internal`)
 
 ## Shortcuts
 
@@ -16,25 +16,26 @@ Copy macros to `%FARPROFILE%\Macros\internal` (`C:\Users\user\AppData\Roaming\Fa
 * 🟦 - Natively supported, _no need to macros_
 * 🟨 - Partially supported, _get the idea but miss some functionality/has side effects_
 * ⬜ - TODO, _PRs welcome_
-* 🟥 - Can't be/Won't be supported, _for some reason_
+* 🟥 - Can't/Won't be supported, _for some reason_
 
 🟩 `Ctrl+S` _(File: Save)_  
+🟩 `Ctrl+C` _(Copy line)_  
+🟩 `Ctrl+X` _(Cut line)_  
 🟩 `Ctrl+Enter` _(Insert line below)_  
 🟩 `Ctrl+Shift+Enter` _(Insert line above)_  
 🟩 `Ctrl+G` _(Go to Line...)_  
+🟩 `Ctrl+] / [` _(Indent/outdent line)_  
+🟩 `Alt+PgDn` _(Scroll page down)_  
 🟦 `Home / End` _(Go to beginning/end of line)_  
 🟦 `Ctrl+Home` _(Go to beginning of file)_  
 🟦 `Ctrl+End` _(Go to end of file)_  
-🟨 `Shift+Alt + v / ^` _(Copy line up/down)_  
-🟨 `Ctrl+X` _(Cut line)_  
 🟨 `Ctrl+Shift+K` _(Delete line)_  
+🟨 `Shift+Alt + v / ^` _(Copy line up/down)_  
 🟨 `Ctrl+F` _(Find)_  
 🟨 `Ctrl+H` _(Replace)_  
-🟨 `Ctrl+] / [` _(Indent/outdent line)_  
 🟨 `Alt+ ^ / v` _(Move line up/down)_  
-⬜ `Ctrl+C` _(Copy line)_  
 ⬜ `Ctrl+Shift+\ ` _(Jump to matching bracket)_  
-⬜ `Alt+PgUp / PgDn` _(Scroll page up/down)_  
+⬜ `Alt+PgUp` _(Scroll page up)_  
 ⬜ `Ctrl+K Ctrl+C` _(Add line comment)_  
 ⬜ `Ctrl+K Ctrl+U` _(Remove line comment)_  
 ⬜ `Ctrl+/` _(Toggle line comment)_  
